@@ -140,26 +140,26 @@ export default function TermServicePage() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="bg-surface-container-lowest p-6 sm:p-8 rounded-xl shadow-sm border border-outline-variant/10">
                   <span className="material-symbols-outlined text-primary-container text-4xl mb-6">
-                    contact_page
+                    home
                   </span>
                   <h3 className="font-headline text-xl font-bold mb-4">
-                    Informacoes de Contato
+                    Endereco
                   </h3>
                   <p className="text-on-surface-variant">
-                    Nome, e-mail e telefone para autenticacao e retorno sobre o
-                    status dos seus relatos urbanos.
+                    Coletamos o seu endereco para identificar a rota de coleta
+                    da sua regiao e informar os horarios corretos.
                   </p>
                 </div>
                 <div className="bg-surface-container-lowest p-6 sm:p-8 rounded-xl shadow-sm border border-outline-variant/10">
                   <span className="material-symbols-outlined text-primary-container text-4xl mb-6">
-                    location_on
+                    notifications
                   </span>
                   <h3 className="font-headline text-xl font-bold mb-4">
-                    Geolocalizacao
+                    Notificacoes
                   </h3>
                   <p className="text-on-surface-variant">
-                    Localizacao precisa do incidente reportado para que as
-                    equipes de limpeza possam atuar com precisao.
+                    Com sua permissao, enviamos notificacoes no seu celular para
+                    avisar sobre a chegada do caminhao de coleta na sua regiao.
                   </p>
                 </div>
                 <div className="md:col-span-2 bg-primary-container text-on-primary-container p-6 sm:p-8 rounded-xl overflow-hidden relative">
@@ -168,11 +168,8 @@ export default function TermServicePage() {
                       Sem compartilhamento comercial
                     </h3>
                     <p className="max-w-xl opacity-90">
-                      Seus dados pessoais sao tratados conforme a LGPD,
-                      exclusivamente para prestacao do servico.{" "}
-                      <strong>
-                        Nunca vendemos seus dados para terceiros.
-                      </strong>{" "}
+                      Seu endereco e tratado conforme a LGPD,
+                      exclusivamente para prestacao do servico de coleta.
                       Compartilhamos apenas com orgaos publicos e parceiros de
                       limpeza urbana responsaveis pela execucao do servico.
                     </p>

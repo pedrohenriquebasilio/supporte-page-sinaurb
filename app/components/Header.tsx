@@ -46,9 +46,6 @@ export default function Header() {
             Privacidade
           </Link>
         </nav>
-        <button className="emerald-gradient text-on-primary px-4 sm:px-6 py-2 sm:py-2.5 rounded-full font-semibold shadow-md transition-all active:scale-95 text-sm sm:text-base">
-          Entrar
-        </button>
       </div>
     </header>
   );
